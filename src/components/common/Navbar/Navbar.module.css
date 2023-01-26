@@ -1,0 +1,11 @@
+.root {
+  @apply flex flex-row py-6;
+}
+
+.navbar {
+  @apply flex flex-row;
+}
+
+.usernav {
+  @apply flex flex-1 justify-end;
+}

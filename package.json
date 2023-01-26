@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build-css": "tailwindcss -i ./src/input.css -o ./src/assets/main.css --watch",
     "start": "next start",
     "lint": "next lint"
   },
@@ -19,5 +20,8 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "4.9.4"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
   }
 }
