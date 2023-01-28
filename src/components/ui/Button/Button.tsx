@@ -32,7 +32,7 @@ const Button: React.FC<Props> = ({
     <button
       className={`${
         borderColor !== undefined ? `${borderColor}` : ""
-      } font-semibold px-6 py-2  rounded-3xl duration-300 ${textColor} ${bgColor} hover:${hoverBgColor} hover:${hoverTextColor} hover:${hoverBorderColor}`}
+      } font-semibold px-6 py-2 rounded-3xl duration-300 ${textColor} ${bgColor} hover:${hoverBgColor} hover:${hoverTextColor} hover:${hoverBorderColor}`}
     >
       {children}
     </button>

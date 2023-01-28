@@ -9,8 +9,17 @@ module.exports = {
     extend: {
       maxWidth: {
         "8xl": "1190px",
+        audioCall: "736px",
+      },
+      screens: {
+        "semi-lg": { min: "1000px" },
+        // => @media (min-height: 800px) { ... }
+      },
+      fontFamily: {
+        Montserrat: ["Montserrat", "sans-serif"],
       },
       width: {
+        0.5: "0.1rem",
         98: "29rem",
       },
       colors: {
@@ -20,7 +29,7 @@ module.exports = {
         "pink-light": "#F2D4DC",
         "primary-black": "#000000",
         "primary-white": "#ffffff",
-        "gray-light": "#F6FSF4",
+        "gray-light": "#F6F5F4",
         "gray-medium": "#E0E0E0",
         "gray-icon": "#BABABA",
         "gray-dark": "#585858",
@@ -33,6 +42,7 @@ module.exports = {
       },
     },
   },
+
   variants: {},
   plugins: [],
 };

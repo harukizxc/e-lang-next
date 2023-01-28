@@ -8,11 +8,11 @@ interface Props {
 
 const Layout: React.FC<Props> = ({ children }) => {
   return (
-    <>
+    <div className="">
       <Navbar />
       <main className="fit"> {children}</main>
       <Footer />
-    </>
+    </div>
   );
 };
 
