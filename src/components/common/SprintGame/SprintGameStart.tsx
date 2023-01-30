@@ -51,7 +51,7 @@ const SprintGameStart = () => {
               </button>
             </div>
             <div className="text-center">
-              <Link href="/">
+              <Link href="/games/sprint/start">
                 <Button textColor="text-primary-white" bgColor="bg-cayan-dark">
                   Get started
                 </Button>

@@ -4,9 +4,9 @@ import React from "react";
 
 const Sprint = () => {
   return (
-    <>
+    <div className="max-w-md mx-auto">
       <SprintGameStart />
-    </>
+    </div>
   );
 };
 

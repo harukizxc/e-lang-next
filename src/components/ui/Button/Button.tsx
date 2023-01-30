@@ -17,6 +17,7 @@ interface Props {
     | "border-cayan-light"
     | "border-cayan-dark"
     | "border-primary-white";
+  onClick?: ((event: React.MouseEvent<HTMLButtonElement>) => void) | undefined;
 }
 
 const Button: React.FC<Props> = ({

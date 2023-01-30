@@ -1,0 +1,12 @@
+.path {
+  transform: rotate(-89.5deg);
+  stroke-dasharray: 1200;
+  stroke-dashoffset: 1200;
+  animation: dash 5s linear forwards;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 130;
+  }
+}

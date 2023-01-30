@@ -1,0 +1,1 @@
+When open page and go home by logo toogle navbar doesnt scroll 

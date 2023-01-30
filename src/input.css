@@ -9,9 +9,10 @@
     background-color: rgb(246 245 244 / var(--tw-bg-opacity));
   }
 }
-
-.fit {
-  max-width: 1920px;
-  margin: 0 auto;
-  min-height: calc(50vh);
+@layer {
+  .fit {
+    max-width: 1920px;
+    margin: 0 auto;
+    min-height: calc(50vh);
+  }
 }
