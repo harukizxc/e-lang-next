@@ -6,6 +6,7 @@ const Sprint = () => {
   return (
     <div className="max-w-md mx-auto">
       <SprintGameStart />
+      <div></div>
     </div>
   );
 };
